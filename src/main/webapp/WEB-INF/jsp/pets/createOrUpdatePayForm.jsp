@@ -29,7 +29,7 @@
                         Amount: <input name="amount" />
                     </div>
                     <div style="padding:20px;text-align:center">
-                    <input id="urlpath" name="urlpath" type="hidden" value="http://10.74.229.236:18080/petclinic/owners">
+                    <input id="urlpath" name="urlpath" type="hidden" value="http://54.69.137.122:8090/petclinic/owners">
                 	</div>
                     <div style="padding:20px;text-align:center">
                         <input type="submit" value="Submit" />
