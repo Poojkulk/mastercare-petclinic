@@ -446,6 +446,16 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>${jetty-maven-plugin.version}</version>
             </plugin>
+             <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+              <artifactId>tomcat7-maven-plugin</artifactId>
+              <version>2.2</version>
+                    <configuration>
+                     <url>http://54.69.137.122:8090/manager/text</url>
+                         <server>Catalina</server>
+                         <path>/petclinic</path>
+                    </configuration>
+             </plugin>
 
         </plugins>
     </build>
@@ -479,9 +489,9 @@
                 <db.script>mysql</db.script>
                 <jpa.database>MYSQL</jpa.database>
                 <jdbc.driverClassName>com.mysql.jdbc.Driver</jdbc.driverClassName>
-                <jdbc.url>jdbc:mysql://localhost:3306/petclinic?serverTimezone=UTC</jdbc.url>
+                <jdbc.url>jdbc:mysql://10.0.1.48:3306/petclinic?serverTimezone=UTC</jdbc.url>
                 <jdbc.username>petclinic</jdbc.username>
-                <jdbc.password>Petclinic@ca123</jdbc.password>
+                <jdbc.password>MySql@123</jdbc.password>
             </properties>
             <dependencies>
                 <dependency>
