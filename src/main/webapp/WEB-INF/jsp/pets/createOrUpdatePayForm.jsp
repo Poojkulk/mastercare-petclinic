@@ -6,7 +6,7 @@
     <body>
         <div style="padding-left:250px;font-family:monospace;">
             <h2>Pay Appointment Charges</h2>
-            <form action="http://10.74.229.236:18080/digirest/rest/AccountService/onlinepayment" method="POST">
+            <form action="http://54.69.137.122:8090/digirest/rest/AccountService/onlinepayment" method="POST">
                 <div style="width: 100px; text-align:left;">
                     <div style="padding:15px;">
                         Username: <input type="text" name="username" />
